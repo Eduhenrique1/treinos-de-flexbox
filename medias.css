@@ -1,0 +1,121 @@
+
+/* media querys */
+
+
+@media only screen and (max-width: 600px)  {
+    .contact{
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        height: 36px;
+    }
+    
+    .contact-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contact-nav p{    
+        color: white;
+        font-size: 16px;
+        margin: 8px 10px 2px;
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+
+    .nav{
+        align-items: center;
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 13%;
+    }
+
+    .menu-principal{
+        padding: 0;
+        margin-top: 11%;
+    }
+
+
+    .logo{
+        display: none;
+    }
+
+    .container-section{
+        width: 894px;
+        height: 290px;
+        margin: 0;
+        }
+
+
+        .aside-intro {
+            width: 100vh;
+            text-align: center;
+        }
+
+        .list {
+            margin-left: 28.7%;
+            margin-bottom: 12%;
+            width: 100vh;
+        }
+
+        .list ul li {
+            color: #939393;
+            font-size: 16px;
+        }
+
+        .last-text {
+            width: 100vh;
+            text-align: center;
+            color: #939393;
+        }
+
+        .aside-img {
+            width: 100vh;
+            text-align: center;
+            left: 0;
+            margin-top: 0;
+        }
+
+
+        .aside-img img {
+            width: 500px;
+            height: 212px;
+        }
+
+        .boxes-text {
+            width: 100vh;
+            margin-left: 0;
+            margin-top: 10%;
+            text-align: center;
+
+        }
+
+        .boxes-img {
+            width: 41%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10%;
+            margin-left: 43%;
+
+        }
+
+        .img img{
+            width: 400px;
+            height: 207px;
+        }
+
+        .img a {
+            font-size: 11px;
+            margin-left: 28%;
+        }
+
+        footer {
+            width: 104vh;
+            height: 180px;
+            background-color: #454545;
+        }
+
+}

@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+    margin: 0;
+    width: 100%;
+    background-color: #030A8C;
+}
+
+.contact-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 7%;
+    align-items: center;
+}
+.contact-nav p{
+    color: white;
+    font-size: 11px;
+    margin: 8px 10px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between
+}
+
+.menu-principal{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.menu ul li{
+    list-style: none;
+    width: 100px;
+    height: 26px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    position: relative;
+}
+
+.submenu li {
+    background-color: blue;
+    z-index: 99;
+}
+
+.menu ul li:hover{
+    color: blue;
+}
+
+.menu ul ul{
+    display: none;
+    margin: 0px;
+    margin-left: -40px;
+}
+
+.menu ul li:hover>ul{
+    display: block;
+}
+
+.menu ul ul ul{
+    margin-left: 60px;
+    top: 0px;
+    position: absolute;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #b5b5b5;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+    cursor: pointer;
+    color: #505050;
+    transition: 1s;
+}
+
+
+.logo{
+    width: 150px;
+    height: 80px;
+    background-color: #020873;
+    margin:10px 0px 10px 50px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ .slider{
+    background-color: #b5b5b5;
+    height: 290px;
+}
+
+.container-section{
+    width: 894px;
+    height: 290px;
+    margin-left: 5%;
+}
+
+.nivoSlider img{
+    width: 894px;
+    height: 290px;
+}
+
+.nivo-controlNav {
+    visibility: hidden;
+    }
+
+aside{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.aside-intro{
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.aside-intro h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #404040;
+    font-weight: 300;
+}
+
+.aside-intro h5{
+    color: #939393;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.list{
+    width: 40%;
+    margin-left: 3.7%;
+    margin-bottom: 0;
+}
+.list ul li{
+    color: #939393;
+    font-size: 14px;
+}
+
+.list ul li h5{
+    margin: 0;
+    color: #939393;
+}
+
+.last-text{
+    width: 13%;
+    margin-left: 6%;
+    color: #939393;
+}
+
+.last-text h5{
+    margin-top: 0;
+}
+
+.aside-img{
+    width: 30%;
+    position: relative;
+    left: 61%;
+    margin-top: -15%;
+}
+
+.aside-img img{
+    width: 325px;
+    height: 212px;
+}
+
+
+.section-box {
+    width: 100%;
+    height: 290px;
+}
+
+.boxes-text{
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.boxes-text h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #404040;
+    font-weight: 300
+}
+
+.boxes-img{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6%;
+}
+.img img{
+    width: 196px;
+    height: 163px;
+}
+
+.img a{
+    font-size: 11px;
+    margin-left: 6%;
+}
+
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: #454545;
+}
+
+.footer-menu{
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 4%;
+    padding-top: 2%;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.footer-menu ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#898989;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+.footer-menu ul li:hover{
+    cursor: pointer;
+    color: #a6a6a6;
+    transition: 1s;
+}
+
+.footer-p{
+    text-align: center;
+    margin-top: 7%;
+    text-transform: uppercase;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
